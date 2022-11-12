@@ -2454,8 +2454,21 @@
     (pin "2" (uuid e6a29b1b-7ac1-4d24-b9e5-4d4f0327f316))
   )
 
+  (sheet (at 173.99 68.58) (size 113.03 44.45)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid fb7c2ffa-ca99-4b61-b7b2-daf423069bae)
+    (property "Sheet name" "Switch Matrix" (id 0) (at 269.24 111.76 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "SwitchMatrix.kicad_sch" (id 1) (at 173.99 113.6146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
+    (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae" (page "2"))
   )
 
   (symbol_instances
