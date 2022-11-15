@@ -2760,9 +2760,6 @@
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/c3b5f8d0-1813-4a3f-8347-a4c37abbf4ac"
       (reference "D?") (unit 1) (value "1N4148") (footprint "")
     )
-    (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/c5e07ce1-99a0-454c-ad60-504fc20fcf11"
-      (reference "D?") (unit 1) (value "1N4148") (footprint "")
-    )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/c7c18618-d992-4515-b930-68e7205f9915"
       (reference "D?") (unit 1) (value "1N4148") (footprint "")
     )
@@ -2845,7 +2842,7 @@
       (reference "SW?") (unit 1) (value "7u") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/0d1e2159-2657-45cd-abeb-2b5da2092e1e"
-      (reference "SW?") (unit 1) (value "1u") (footprint "marbastlib-mx:SW_MX_1u")
+      (reference "SW?") (unit 1) (value "2.25u") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/104802e4-14f9-411a-a4a0-f6215bec26c8"
       (reference "SW?") (unit 1) (value "1u") (footprint "marbastlib-mx:SW_MX_1u")
@@ -2914,7 +2911,7 @@
       (reference "SW?") (unit 1) (value "1.25u") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/4ed1c90c-669c-4d5d-ab96-4601acd37bc4"
-      (reference "SW?") (unit 1) (value "1u") (footprint "marbastlib-mx:SW_MX_1u")
+      (reference "SW?") (unit 1) (value "1.5u") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/4f08788f-8376-45a2-aa3e-3723bdceed68"
       (reference "SW?") (unit 1) (value "1u") (footprint "marbastlib-mx:SW_MX_1u")
@@ -2929,9 +2926,6 @@
       (reference "SW?") (unit 1) (value "1u") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/57b2e7db-d315-4988-910e-a23b935aadbe"
-      (reference "SW?") (unit 1) (value "1u") (footprint "marbastlib-mx:SW_MX_1u")
-    )
-    (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/5a38cd8b-deb6-4843-9bd9-29a0274a2ab9"
       (reference "SW?") (unit 1) (value "1u") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/65c54d99-60e1-42c4-a782-79a2cf44e744"
@@ -2966,6 +2960,9 @@
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/8981bc5b-4731-4370-93eb-f10f0b076c90"
       (reference "SW?") (unit 1) (value "1u") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/8e87b95e-bca8-40b3-89b6-8335897a7425"
+      (reference "SW?") (unit 1) (value "ISO Enter") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/96d334bd-0ba1-4a89-957c-f96243fe1f72"
       (reference "SW?") (unit 1) (value "1u") (footprint "marbastlib-mx:SW_MX_1u")
@@ -3005,6 +3002,9 @@
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/c9ea8a47-5fce-4559-987f-6e1a84fbf573"
       (reference "SW?") (unit 1) (value "1.25u") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/cd12475f-764a-4547-a7b7-54c5f2b88bc3"
+      (reference "SW?") (unit 1) (value "1u") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/d21ba85f-5d64-46af-8a21-4d1b6872535b"
       (reference "SW?") (unit 1) (value "1u") (footprint "marbastlib-mx:SW_MX_1u")
