@@ -2833,6 +2833,9 @@
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/4d8f0c60-84d0-4c81-a9b2-a25d0e37dbfe"
       (reference "S7") (unit 1) (value "Right Split Space") (footprint "marbastlib-mx:STAB_MX_P_2u")
     )
+    (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/ff37e022-b091-41c1-9fa3-b1b82f1c646d"
+      (reference "S8") (unit 1) (value "Enter") (footprint "marbastlib-mx:STAB_MX_2u")
+    )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/be3ad5d6-0a2a-4f43-9ac8-e4903567e538"
       (reference "SW1") (unit 1) (value "1u") (footprint "marbastlib-mx:SW_MX_1u")
     )
