@@ -5119,7 +5119,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 36822ba9-556b-4c98-8b6f-b8f16d077e55)
-    (at 538.77 125.22 180)
+    (at 500.126 114.808 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "rp2040-bakeneko65.kicad_sch")
@@ -5261,7 +5261,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 43a34cdd-7e7b-4b88-a20c-46941e4636bf)
-    (at 528.37 120.77 180)
+    (at 488.574 114.306 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "rp2040-bakeneko65.kicad_sch")
@@ -5603,7 +5603,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 55518de8-80e8-4a4c-b93e-4a7788599e13)
-    (at 521.49375 145.25625 180)
+    (at 500.507 122.555 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "rp2040-bakeneko65.kicad_sch")
@@ -5895,7 +5895,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 5d8188fd-8f12-4df1-81c7-6c6d5b9b6505)
-    (at 534.32 125.22 180)
+    (at 494.524 118.756 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "rp2040-bakeneko65.kicad_sch")
@@ -6037,7 +6037,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 654dc100-684d-4c0e-8703-0ed99d1e28a2)
-    (at 523.92 120.51 180)
+    (at 484.124 114.046 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "rp2040-bakeneko65.kicad_sch")
@@ -6218,7 +6218,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 7422f35e-35b1-4b46-8652-d926c48bdafe)
-    (at 534.32 128.23 180)
+    (at 494.524 121.766 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "rp2040-bakeneko65.kicad_sch")
@@ -6814,7 +6814,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 898d9b14-8d83-4d55-a2f6-04da1185deeb)
-    (at 519.49 120.48 180)
+    (at 479.694 114.016 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "rp2040-bakeneko65.kicad_sch")
@@ -6856,7 +6856,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 8a05ca57-8cab-43e3-bef3-397c316db8b5)
-    (at 525.42 123.78 180)
+    (at 485.624 117.316 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "rp2040-bakeneko65.kicad_sch")
@@ -7148,7 +7148,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 99cd47f7-9014-42ee-a663-4c8af3a6fd27)
-    (at 532.82 120.77 180)
+    (at 493.024 114.306 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "rp2040-bakeneko65.kicad_sch")
@@ -7382,7 +7382,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp abba557c-e3be-4963-aa1f-0518bec485b8)
-    (at 529.87 123.78 180)
+    (at 490.074 117.316 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "rp2040-bakeneko65.kicad_sch")
@@ -8266,7 +8266,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp d6aff884-b97b-4009-9a02-3e11effe105a)
-    (at 529.89 129.77 180)
+    (at 494.4345 127 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "rp2040-bakeneko65.kicad_sch")
@@ -8700,7 +8700,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp e7fd044f-d853-4fb4-bc38-044d731303ad)
-    (at 529.87 126.79 180)
+    (at 490.074 120.326 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "rp2040-bakeneko65.kicad_sch")
@@ -9173,8 +9173,13 @@
   (gr_line (start 277.67715 184.6875) (end 260.762756 184.6875) (layer "Edge.Cuts") (width 0.2) (tstamp fd142e53-4ccb-44d6-85fb-236b71f9ce82))
 
   (segment (start 215.138 177.927) (end 219.014 177.927) (width 0.381) (layer "B.Cu") (net 2) (tstamp 28789099-c304-49e9-be4d-26c497cd4119))
+  (segment (start 215.033 177.822) (end 215.138 177.927) (width 0.2) (layer "B.Cu") (net 2) (tstamp 54e932e8-25e6-46c3-82f5-776bae014fd6))
   (segment (start 219.014 177.927) (end 219.075 177.866) (width 0.381) (layer "B.Cu") (net 2) (tstamp bb569464-c14c-4a05-adf6-c71148192b8f))
+  (segment (start 215.033 175.1795) (end 215.033 177.822) (width 0.2) (layer "B.Cu") (net 2) (tstamp bc50222a-80ad-442f-84e5-7427212a3a6a))
   (segment (start 212.938 177.927) (end 213.038 177.927) (width 0.25) (layer "B.Cu") (net 3) (tstamp 432ab7f8-3056-4458-9969-6ba39c22dde0))
+  (segment (start 213.36 177.927) (end 212.938 177.927) (width 0.2) (layer "B.Cu") (net 3) (tstamp a493401d-ab44-4278-9356-c74ddebe704d))
+  (segment (start 214.633 176.232) (end 212.938 177.927) (width 0.2) (layer "B.Cu") (net 3) (tstamp affd278e-3705-4f42-832e-31aea051ecf5))
+  (segment (start 214.633 175.1795) (end 214.633 176.232) (width 0.2) (layer "B.Cu") (net 3) (tstamp eb9d8631-ca2e-4a71-803b-9624fc80d6e5))
   (segment (start 215.138 179.627) (end 218.936 179.627) (width 0.25) (layer "B.Cu") (net 4) (tstamp 879422c7-e2fd-4c2f-82b3-2799801eb5df))
   (segment (start 218.936 179.627) (end 219.075 179.766) (width 0.25) (layer "B.Cu") (net 4) (tstamp b8ec1c57-a133-474b-9bf6-39a2a3b291ce))
   (segment (start 53.34 133.19125) (end 50.95875 135.5725) (width 0.25) (layer "F.Cu") (net 89) (tstamp 10b43f77-103b-41d4-86eb-d66b943aa646))

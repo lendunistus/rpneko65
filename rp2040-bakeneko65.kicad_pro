@@ -380,9 +380,12 @@
         "name": "MCU",
         "nets": [
           "+1V1",
+          "+3V3",
+          "+5V",
           "CS",
           "D+",
           "D-",
+          "GND",
           "QSPI_CLK",
           "SD0",
           "SD1",
@@ -425,7 +428,7 @@
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
+        "track_width": 0.15,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
@@ -440,11 +443,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
-        "nets": [
-          "+3V3",
-          "+5V",
-          "GND"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.381,
