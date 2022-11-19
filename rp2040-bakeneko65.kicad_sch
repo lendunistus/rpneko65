@@ -2813,28 +2813,28 @@
       (reference "R4") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/add1b4b6-3350-46ff-b728-2ba63a7097f4"
-      (reference "S1") (unit 1) (value "Back") (footprint "marbastlib-mx:STAB_MX_2u")
-    )
-    (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/6b83e1da-2dbc-49e1-9bde-5a6fe0f5e40b"
-      (reference "S2") (unit 1) (value "LShift") (footprint "marbastlib-mx:STAB_MX_2u")
+      (reference "S17") (unit 1) (value "Back") (footprint "marbastlib-mx:STAB_MX_2u")
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/af350765-67cf-4d26-9a39-222119f556ba"
-      (reference "S3") (unit 1) (value "ISO Enter") (footprint "marbastlib-mx:STAB_MX_2u")
-    )
-    (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/ab121c89-d17a-4394-937f-b1694fbcaa43"
-      (reference "S4") (unit 1) (value "7u Space") (footprint "marbastlib-mx:STAB_MX_P_7u")
-    )
-    (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/8beeef2d-c378-4f76-af89-8e466c7b7b67"
-      (reference "S5") (unit 1) (value "6.25u Space") (footprint "marbastlib-mx:STAB_MX_P_6.25u")
-    )
-    (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/f3cfb11f-9bc7-4ce7-a6b8-3f9ec783f0b4"
-      (reference "S6") (unit 1) (value "Left Split Space") (footprint "marbastlib-mx:STAB_MX_P_2u")
-    )
-    (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/4d8f0c60-84d0-4c81-a9b2-a25d0e37dbfe"
-      (reference "S7") (unit 1) (value "Right Split Space") (footprint "marbastlib-mx:STAB_MX_P_2u")
+      (reference "S32") (unit 1) (value "ISO Enter") (footprint "marbastlib-mx:STAB_MX_ISO")
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/ff37e022-b091-41c1-9fa3-b1b82f1c646d"
-      (reference "S8") (unit 1) (value "Enter") (footprint "marbastlib-mx:STAB_MX_2u")
+      (reference "S47") (unit 1) (value "Enter") (footprint "marbastlib-mx:STAB_MX_P_2.25u")
+    )
+    (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/6b83e1da-2dbc-49e1-9bde-5a6fe0f5e40b"
+      (reference "S50") (unit 1) (value "LShift") (footprint "marbastlib-mx:STAB_MX_2.25u")
+    )
+    (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/ab121c89-d17a-4394-937f-b1694fbcaa43"
+      (reference "S69") (unit 1) (value "7u Space") (footprint "marbastlib-mx:STAB_MX_P_7u")
+    )
+    (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/8beeef2d-c378-4f76-af89-8e466c7b7b67"
+      (reference "S78") (unit 1) (value "6.25u Space") (footprint "marbastlib-mx:STAB_MX_P_6.25u")
+    )
+    (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/f3cfb11f-9bc7-4ce7-a6b8-3f9ec783f0b4"
+      (reference "S81") (unit 1) (value "Left Split Space") (footprint "marbastlib-mx:STAB_MX_P_3u")
+    )
+    (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/4d8f0c60-84d0-4c81-a9b2-a25d0e37dbfe"
+      (reference "S83") (unit 1) (value "Right Split Space") (footprint "marbastlib-mx:STAB_MX_P_3u")
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/be3ad5d6-0a2a-4f43-9ac8-e4903567e538"
       (reference "SW1") (unit 1) (value "1u") (footprint "marbastlib-mx:SW_MX_1u")
