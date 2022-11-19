@@ -598,7 +598,7 @@
 
   (footprint "marbastlib-mx:STAB_MX_2.25u" (layer "F.Cu")
     (tedit 61013B12) (tstamp 07de146b-c168-4f80-bee6-e3cfcf3874ad)
-    (at 54.76875 157.1625)
+    (at 64.29375 157.1625)
     (descr "Footprint for Cherry Clip/Screw in type stabilizers, 2.25u")
     (property "Sheetfile" "SwitchMatrix.kicad_sch")
     (property "Sheetname" "Switch Matrix")
