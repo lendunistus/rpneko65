@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.524,
-          "height": 2.3,
-          "width": 2.3
+          "drill": 0.0,
+          "height": 0.875,
+          "width": 0.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -119,7 +119,8 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.381
       ],
       "via_dimensions": [
         {
@@ -387,8 +388,6 @@
           "D-",
           "GND",
           "Net-(C3-Pad2)",
-          "Net-(R1-Pad2)",
-          "Net-(R2-Pad2)",
           "Net-(R3-Pad2)",
           "QSPI_CLK",
           "SD0",
