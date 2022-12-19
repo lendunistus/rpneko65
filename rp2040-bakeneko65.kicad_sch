@@ -2349,7 +2349,7 @@
     (uuid 3f3def5f-b1df-4dab-b83b-aca579f395ce)
     (property "Reference" "F1" (id 0) (at 120.015 85.09 90))
     (property "Value" "500mA" (id 1) (at 120.015 87.63 90))
-    (property "Footprint" "" (id 2) (at 125.095 88.9 0)
+    (property "Footprint" "Fuse:Fuse_1206_3216Metric" (id 2) (at 125.095 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "~" (id 3) (at 120.015 90.17 0)
@@ -2786,7 +2786,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 38.1 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9769ce52-6e73-4db2-bb86-cd67bfc206bf)
-    (property "Reference" "SW83" (id 0) (at 38.1 21.59 0))
+    (property "Reference" "SW85" (id 0) (at 38.1 21.59 0))
     (property "Value" "SW_Push" (id 1) (at 38.1 24.13 0))
     (property "Footprint" "random-keyboard-parts:SKQG-1155865" (id 2) (at 38.1 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3499,7 +3499,7 @@
       (reference "D81") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/3f3def5f-b1df-4dab-b83b-aca579f395ce"
-      (reference "F1") (unit 1) (value "500mA") (footprint "")
+      (reference "F1") (unit 1) (value "500mA") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/32b33f08-7fa2-4077-90f6-5ab1d4f740cd"
       (reference "J1") (unit 1) (value "SM04B-SRSS-TB") (footprint "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
@@ -3544,13 +3544,13 @@
       (reference "S75") (unit 1) (value "Right 3u Split Space") (footprint "marbastlib-mx:STAB_MX_3u")
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/7c3d951d-4ef5-42bb-8e22-4c0e3d32a0d9"
-      (reference "S84") (unit 1) (value "Left 2.25u Split Space") (footprint "marbastlib-mx:STAB_MX_2.25u")
+      (reference "S82") (unit 1) (value "Left 2.25u Split Space") (footprint "marbastlib-mx:STAB_MX_2.25u")
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/c99e4bc7-d51c-4219-9cf7-1f1bfb97ba53"
-      (reference "S85") (unit 1) (value "2u Split Space") (footprint "marbastlib-mx:STAB_MX_2u")
+      (reference "S83") (unit 1) (value "2u Split Space") (footprint "marbastlib-mx:STAB_MX_2u")
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/fa71936f-4efd-47af-be2c-78b9a639b5be"
-      (reference "S86") (unit 1) (value "Right 2.75u Split Space") (footprint "marbastlib-mx:STAB_MX_2.75u")
+      (reference "S84") (unit 1) (value "Right 2.75u Split Space") (footprint "marbastlib-mx:STAB_MX_2.75u")
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/be3ad5d6-0a2a-4f43-9ac8-e4903567e538"
       (reference "SW1") (unit 1) (value "1u") (footprint "marbastlib-mx:SW_MX_1u")
@@ -3795,17 +3795,17 @@
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/19e95441-aaf7-4e31-8d75-4fa3dd63a595"
       (reference "SW81") (unit 1) (value "1u") (footprint "marbastlib-mx:SW_MX_1u")
     )
-    (path "/9769ce52-6e73-4db2-bb86-cd67bfc206bf"
-      (reference "SW83") (unit 1) (value "SW_Push") (footprint "random-keyboard-parts:SKQG-1155865")
-    )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/d1c32e1f-d3f0-4d93-a1fc-271d38f2ec41"
-      (reference "SW84") (unit 1) (value "2.25u") (footprint "marbastlib-mx:SW_MX_1u")
+      (reference "SW82") (unit 1) (value "2.25u") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/6d4e6a95-f4d3-4de3-bd9f-621197234fe5"
-      (reference "SW85") (unit 1) (value "2u") (footprint "marbastlib-mx:SW_MX_1u")
+      (reference "SW83") (unit 1) (value "2u") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/d5753977-c7e5-4d80-90ac-1a18d3d1c8ce"
-      (reference "SW86") (unit 1) (value "2.75u") (footprint "marbastlib-mx:SW_MX_1u")
+      (reference "SW84") (unit 1) (value "2.75u") (footprint "marbastlib-mx:SW_MX_1u")
+    )
+    (path "/9769ce52-6e73-4db2-bb86-cd67bfc206bf"
+      (reference "SW85") (unit 1) (value "SW_Push") (footprint "random-keyboard-parts:SKQG-1155865")
     )
     (path "/7983fcb6-a16e-4782-bd80-c146df78a95c"
       (reference "U1") (unit 1) (value "RP2040") (footprint "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm")
