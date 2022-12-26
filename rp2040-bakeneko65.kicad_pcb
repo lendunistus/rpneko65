@@ -150,12 +150,12 @@
   (net 73 "Net-(D68-Pad2)")
   (net 74 "Net-(D70-Pad2)")
   (net 75 "Net-(D72-Pad2)")
-  (net 76 "Net-(D73-Pad2)")
-  (net 77 "Net-(D75-Pad2)")
-  (net 78 "Net-(D76-Pad2)")
-  (net 79 "Net-(D67-Pad2)")
-  (net 80 "Net-(D69-Pad2)")
-  (net 81 "Net-(D71-Pad2)")
+  (net 76 "Net-(D77-Pad2)")
+  (net 77 "Net-(D79-Pad2)")
+  (net 78 "Net-(D80-Pad2)")
+  (net 79 "Net-(D82-Pad2)")
+  (net 80 "Net-(D83-Pad2)")
+  (net 81 "Net-(D84-Pad2)")
   (net 82 "Net-(D74-Pad2)")
   (net 83 "Net-(F1-Pad2)")
   (net 84 "D-")
@@ -316,7 +316,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/6d4e6a95-f4d3-4de3-bd9f-621197234fe5")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "SW84" (at 0 3.175) (layer "Dwgs.User") hide
+    (fp_text reference "SW76" (at 0 3.175) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fb71a50a-24ae-41c2-95c7-3ad2a3833a72)
     )
@@ -346,7 +346,7 @@
     (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
       (net 98 "COL6") (pinfunction "1") (pintype "passive") (tstamp edde2269-6c70-4476-9e92-53f62da7d804))
     (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
-      (net 74 "Net-(D70-Pad2)") (pinfunction "2") (pintype "passive") (tstamp fbd88fef-ebef-4835-973b-8e42b935e905))
+      (net 82 "Net-(D74-Pad2)") (pinfunction "2") (pintype "passive") (tstamp fbd88fef-ebef-4835-973b-8e42b935e905))
   )
 
   (footprint "marbastlib-mx:SW_MX_1u" (layer "F.Cu")
@@ -694,7 +694,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/2e412605-31d2-4e7f-9043-cc49e9fcf7e4")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "SW67" (at 0 3.175) (layer "Dwgs.User") hide
+    (fp_text reference "SW68" (at 0 3.175) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fc009485-39fc-4876-a091-9d06c33e2c3d)
     )
@@ -724,7 +724,7 @@
     (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
       (net 93 "COL1") (pinfunction "1") (pintype "passive") (tstamp bdeb86ed-ee46-4cc2-b57f-f2a30144d1ac))
     (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
-      (net 79 "Net-(D67-Pad2)") (pinfunction "2") (pintype "passive") (tstamp c63bb143-7849-4e09-acbc-e2eabccfd591))
+      (net 73 "Net-(D68-Pad2)") (pinfunction "2") (pintype "passive") (tstamp c63bb143-7849-4e09-acbc-e2eabccfd591))
   )
 
   (footprint "marbastlib-mx:SW_MX_1u" (layer "F.Cu")
@@ -819,7 +819,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/7c3d951d-4ef5-42bb-8e22-4c0e3d32a0d9")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "S80" (at 0 0) (layer "F.SilkS") hide
+    (fp_text reference "S73" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bc6a1a65-0a51-4f45-8203-6f5b38ef5d7c)
     )
@@ -847,10 +847,10 @@
     (fp_line (start -14.78125 8.000001) (end -9.03125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp 9c4cc918-cc86-423b-835d-efcb10db0e5b))
     (fp_line (start 9.03125 -5.999999) (end 14.780039 -5.999999) (layer "Eco2.User") (width 0.05) (tstamp f1e09834-cf70-4874-b30a-ec64b48a79e8))
     (fp_line (start -15.28125 -5.499999) (end -15.28125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp f9ddde9c-7138-4f07-897a-4eb6b6e247e7))
-    (fp_arc (start 9.03125 8.000001) (mid 8.677729 7.853537) (end 8.53125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp 292b986c-5d17-46f7-87aa-68a9981f6b40))
+    (fp_arc (start 9.03125 8.000001) (mid 8.677693 7.853543) (end 8.53125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp 292b986c-5d17-46f7-87aa-68a9981f6b40))
     (fp_arc (start 8.53125 -5.499999) (mid 8.677685 -5.853565) (end 9.03125 -5.999999) (layer "Eco2.User") (width 0.05) (tstamp 2f215b5e-6259-4581-9087-2639338f848d))
-    (fp_arc (start 15.28125 7.500001) (mid 15.134806 7.853571) (end 14.78125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp 42d3972f-8f6a-454b-8af5-42f00bd5caf1))
-    (fp_arc (start 14.780039 -5.999999) (mid 15.133567 -5.853539) (end 15.280039 -5.499999) (layer "Eco2.User") (width 0.05) (tstamp 6bb31751-975b-42f7-bf4c-ba68713c9bdd))
+    (fp_arc (start 15.28125 7.500001) (mid 15.1348 7.853536) (end 14.78125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp 42d3972f-8f6a-454b-8af5-42f00bd5caf1))
+    (fp_arc (start 14.780039 -5.999999) (mid 15.133602 -5.853545) (end 15.280039 -5.499999) (layer "Eco2.User") (width 0.05) (tstamp 6bb31751-975b-42f7-bf4c-ba68713c9bdd))
     (fp_arc (start -14.78125 8.000001) (mid -15.134803 7.853554) (end -15.28125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp 769d86fb-2ecf-43f6-af17-ee7bf79b8a10))
     (fp_arc (start -8.53125 7.500001) (mid -8.677697 7.853554) (end -9.03125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp 8831dde5-ef16-42b7-930e-52e035c9bfa1))
     (fp_arc (start -15.28125 -5.499999) (mid -15.134803 -5.853552) (end -14.78125 -5.999999) (layer "Eco2.User") (width 0.05) (tstamp bdc7e181-4c17-414e-843c-526a1562a7df))
@@ -889,14 +889,14 @@
 
   (footprint "marbastlib-mx:SW_MX_1u" (layer "F.Cu")
     (tedit 61013A6B) (tstamp 1b1992b6-f534-4b9e-a505-aab0e103cd24)
-    (at 190.5 169.06875)
+    (at 202.40625 169.06875)
     (descr "Footprint for Cherry MX style switches")
     (tags "cherry mx switch")
     (property "Sheetfile" "SwitchMatrix.kicad_sch")
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/fe716f6c-46bc-4cc7-9d05-3efbc416dc4a")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "SW81" (at 0 3.175) (layer "Dwgs.User") hide
+    (fp_text reference "SW75" (at 0 3.175) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9da5b66d-f261-4bb6-ac4f-5d02bbb861b1)
     )
@@ -926,7 +926,7 @@
     (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
       (net 98 "COL6") (pinfunction "1") (pintype "passive") (tstamp ca112fd2-1a87-44ef-979d-4bf084235395))
     (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
-      (net 74 "Net-(D70-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 667749b5-3f32-4c8c-861a-58f91e6b9ec9))
+      (net 82 "Net-(D74-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 667749b5-3f32-4c8c-861a-58f91e6b9ec9))
   )
 
   (footprint "marbastlib-mx:SW_MX_1u" (layer "F.Cu")
@@ -1022,7 +1022,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/cf0e63c9-9ac5-4e48-80d5-ea5d681d5018")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "SW71" (at 0 3.175) (layer "Dwgs.User") hide
+    (fp_text reference "SW77" (at 0 3.175) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 515dd3ef-0c5d-4f51-bd1b-a2ab488f88cf)
     )
@@ -1052,7 +1052,7 @@
     (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
       (net 99 "COL7") (pinfunction "1") (pintype "passive") (tstamp 0b4bf796-7609-4bb3-9126-5ae262c6f378))
     (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
-      (net 81 "Net-(D71-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 04b9a62e-5053-4d38-89c8-e130d7c667e9))
+      (net 76 "Net-(D77-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 04b9a62e-5053-4d38-89c8-e130d7c667e9))
   )
 
   (footprint "marbastlib-mx:SW_MX_1u" (layer "F.Cu")
@@ -1231,7 +1231,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/adb78f8d-d8ae-411a-a402-48e6392309f6")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "SW73" (at 0 3.175) (layer "Dwgs.User") hide
+    (fp_text reference "SW80" (at 0 3.175) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 82863b6f-4396-4acd-85b7-278d647f1ef8)
     )
@@ -1261,7 +1261,7 @@
     (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
       (net 103 "COL11") (pinfunction "1") (pintype "passive") (tstamp 5d862d9f-e45f-49f8-a1f3-2c2fe3e4459c))
     (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
-      (net 76 "Net-(D73-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 081a4016-06d2-4dd5-97ee-f908c7c71d0e))
+      (net 78 "Net-(D80-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 081a4016-06d2-4dd5-97ee-f908c7c71d0e))
   )
 
   (footprint "marbastlib-mx:SW_MX_1.25u" (layer "F.Cu")
@@ -1439,7 +1439,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/f2a28a7b-3741-405f-a994-50f6b0d9dabf")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "SW83" (at 0 3.175) (layer "Dwgs.User") hide
+    (fp_text reference "SW81" (at 0 3.175) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f96d6638-b3c3-4eaf-ab58-7abe7cf272c9)
     )
@@ -1469,7 +1469,7 @@
     (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
       (net 103 "COL11") (pinfunction "1") (pintype "passive") (tstamp be2f3a18-4a46-40f3-bc30-3753789736b0))
     (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
-      (net 76 "Net-(D73-Pad2)") (pinfunction "2") (pintype "passive") (tstamp aec8c1ac-7b7c-4a5e-8847-f8413b83b43f))
+      (net 78 "Net-(D80-Pad2)") (pinfunction "2") (pintype "passive") (tstamp aec8c1ac-7b7c-4a5e-8847-f8413b83b43f))
   )
 
   (footprint "marbastlib-mx:STAB_MX_3u" (layer "F.Cu")
@@ -1480,7 +1480,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/4d8f0c60-84d0-4c81-a9b2-a25d0e37dbfe")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "S71" (at 0 0) (layer "F.SilkS") hide
+    (fp_text reference "S77" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 41c9a725-1c58-496f-8cf2-686d6c951d5c)
     )
@@ -1626,10 +1626,10 @@
     (fp_line (start 15.280039 -5.499999) (end 15.28125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp b71f107d-0d14-4aa9-9f03-ef3766410a26))
     (fp_line (start -15.28125 -5.499999) (end -15.28125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp bdbf67d2-7e70-45b3-8b4c-dadd19ec2cdf))
     (fp_line (start -8.53125 -5.499999) (end -8.53125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp db176de2-6713-4072-8e46-56292bbef3dd))
-    (fp_arc (start 14.780039 -5.999999) (mid 15.133567 -5.853539) (end 15.280039 -5.499999) (layer "Eco2.User") (width 0.05) (tstamp 0d6cb339-e4b1-494e-ad68-a52c7988eded))
-    (fp_arc (start 9.03125 8.000001) (mid 8.677729 7.853537) (end 8.53125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp 20dec356-ec4a-4124-8f49-b2f05a1f1358))
+    (fp_arc (start 14.780039 -5.999999) (mid 15.133602 -5.853545) (end 15.280039 -5.499999) (layer "Eco2.User") (width 0.05) (tstamp 0d6cb339-e4b1-494e-ad68-a52c7988eded))
+    (fp_arc (start 9.03125 8.000001) (mid 8.677693 7.853543) (end 8.53125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp 20dec356-ec4a-4124-8f49-b2f05a1f1358))
     (fp_arc (start -8.53125 7.500001) (mid -8.677697 7.853554) (end -9.03125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp 284e2a2f-5947-44fd-a229-30258e14f561))
-    (fp_arc (start 15.28125 7.500001) (mid 15.134806 7.853571) (end 14.78125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp 2fe9b70d-527c-4bba-ba0a-9b885dc52847))
+    (fp_arc (start 15.28125 7.500001) (mid 15.1348 7.853536) (end 14.78125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp 2fe9b70d-527c-4bba-ba0a-9b885dc52847))
     (fp_arc (start -9.03125 -5.999999) (mid -8.677697 -5.853552) (end -8.53125 -5.499999) (layer "Eco2.User") (width 0.05) (tstamp 6670e2df-b023-41c5-958e-02cdf0ceb29f))
     (fp_arc (start -15.28125 -5.499999) (mid -15.134803 -5.853552) (end -14.78125 -5.999999) (layer "Eco2.User") (width 0.05) (tstamp b97979fe-4c16-4a6f-b8c8-cedb12c58f2c))
     (fp_arc (start -14.78125 8.000001) (mid -15.134803 7.853554) (end -15.28125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp c9d987c1-3f20-43bf-be5d-0e120c4a355f))
@@ -1966,7 +1966,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/fa71936f-4efd-47af-be2c-78b9a639b5be")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "S82" (at 0 0) (layer "F.SilkS") hide
+    (fp_text reference "S78" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bddcd181-f9f6-4521-bc35-6083735ce37c)
     )
@@ -1998,10 +1998,10 @@
     (fp_arc (start -8.53125 7.500001) (mid -8.677697 7.853554) (end -9.03125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp 1d16a24c-3d16-454d-a2a9-0eaec56c1ef5))
     (fp_arc (start -9.03125 -5.999999) (mid -8.677697 -5.853552) (end -8.53125 -5.499999) (layer "Eco2.User") (width 0.05) (tstamp 393462d3-4bc3-4ce8-9a16-d30e888d735c))
     (fp_arc (start -15.28125 -5.499999) (mid -15.134803 -5.853552) (end -14.78125 -5.999999) (layer "Eco2.User") (width 0.05) (tstamp 614f2ade-871c-41f2-b734-2d03bd0c25b5))
-    (fp_arc (start 9.03125 8.000001) (mid 8.677729 7.853537) (end 8.53125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp d72b95e8-4a1c-498e-b9d1-da807eb3bcfa))
-    (fp_arc (start 15.28125 7.500001) (mid 15.134806 7.853571) (end 14.78125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp dbcf6937-05b7-46ba-9d08-d27d4d3e09ec))
+    (fp_arc (start 9.03125 8.000001) (mid 8.677693 7.853543) (end 8.53125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp d72b95e8-4a1c-498e-b9d1-da807eb3bcfa))
+    (fp_arc (start 15.28125 7.500001) (mid 15.1348 7.853536) (end 14.78125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp dbcf6937-05b7-46ba-9d08-d27d4d3e09ec))
     (fp_arc (start -14.78125 8.000001) (mid -15.134803 7.853554) (end -15.28125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp dd1263bb-711c-4f45-9f40-dc4873035c96))
-    (fp_arc (start 14.780039 -5.999999) (mid 15.133567 -5.853539) (end 15.280039 -5.499999) (layer "Eco2.User") (width 0.05) (tstamp eb2c4154-4323-4928-857f-564d98e10d22))
+    (fp_arc (start 14.780039 -5.999999) (mid 15.133602 -5.853545) (end 15.280039 -5.499999) (layer "Eco2.User") (width 0.05) (tstamp eb2c4154-4323-4928-857f-564d98e10d22))
     (fp_circle (center 11.90625 -6.985) (end 13.90625 -6.985) (layer "B.CrtYd") (width 0.12) (fill none) (tstamp 0f1b910b-d715-482a-aa0e-c75989d44c7e))
     (fp_circle (center -11.90625 -6.985) (end -9.90625 -6.985) (layer "B.CrtYd") (width 0.12) (fill none) (tstamp 214610c0-f34b-41c0-8fb6-b224e5c13d44))
     (pad "" np_thru_hole circle (at -11.90625 -6.985) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask) (tstamp 101fcb0e-bc49-4cfd-a573-a6bfabca5639))
@@ -2043,7 +2043,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/19e95441-aaf7-4e31-8d75-4fa3dd63a595")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "SW76" (at 0 3.175) (layer "Dwgs.User") hide
+    (fp_text reference "SW84" (at 0 3.175) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d2c4de6e-bd0d-48d6-b578-fcfd6df00129)
     )
@@ -2073,7 +2073,7 @@
     (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
       (net 107 "COL15") (pinfunction "1") (pintype "passive") (tstamp d74f39a1-dfa7-45e9-b0c5-fe160ace6020))
     (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
-      (net 78 "Net-(D76-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 12210f78-d978-42ff-9480-a2c41febaa89))
+      (net 81 "Net-(D84-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 12210f78-d978-42ff-9480-a2c41febaa89))
   )
 
   (footprint "marbastlib-mx:SW_MX_1u" (layer "F.Cu")
@@ -2293,7 +2293,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/d1c32e1f-d3f0-4d93-a1fc-271d38f2ec41")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "SW80" (at 0 3.175) (layer "Dwgs.User") hide
+    (fp_text reference "SW73" (at 0 3.175) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp db7966dd-dd29-407b-a56e-810cce092442)
     )
@@ -2323,7 +2323,7 @@
     (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
       (net 97 "COL5") (pinfunction "1") (pintype "passive") (tstamp 4a258bd1-fc62-4d14-9b68-475250ee6fae))
     (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
-      (net 80 "Net-(D69-Pad2)") (pinfunction "2") (pintype "passive") (tstamp ce3d7751-26ac-4ad6-a198-11021f541b5f))
+      (net 75 "Net-(D72-Pad2)") (pinfunction "2") (pintype "passive") (tstamp ce3d7751-26ac-4ad6-a198-11021f541b5f))
   )
 
   (footprint "marbastlib-mx:SW_MX_1u" (layer "F.Cu")
@@ -2503,7 +2503,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/354d11c8-5409-48d2-944a-e7daae7b4b03")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "SW75" (at 0 3.175) (layer "Dwgs.User") hide
+    (fp_text reference "SW83" (at 0 3.175) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cafdc339-f2ab-4fed-9059-1c56be7d971a)
     )
@@ -2533,7 +2533,7 @@
     (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
       (net 105 "COL13") (pinfunction "1") (pintype "passive") (tstamp 60c464ad-f226-49ed-8a72-f414386bea3b))
     (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
-      (net 77 "Net-(D75-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 9266d3d7-0bca-4f50-a7f6-564e1d0ed228))
+      (net 80 "Net-(D83-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 9266d3d7-0bca-4f50-a7f6-564e1d0ed228))
   )
 
   (footprint "marbastlib-mx:STAB_MX_ISO" (layer "F.Cu")
@@ -2577,11 +2577,11 @@
     (fp_arc (start -5.999999 -14.780039) (mid -5.853552 -15.133592) (end -5.499999 -15.280039) (layer "Eco2.User") (width 0.05) (tstamp 118347b9-88e7-4777-a42a-b796d8146513))
     (fp_arc (start 8.000001 14.78125) (mid 7.853531 15.13478) (end 7.500001 15.28125) (layer "Eco2.User") (width 0.05) (tstamp 19cc891e-7359-4d1e-a7fd-b5a499f6d82c))
     (fp_arc (start -5.499999 15.28125) (mid -5.853552 15.134803) (end -5.999999 14.78125) (layer "Eco2.User") (width 0.05) (tstamp 4a601ef1-1bf7-4418-9702-738ca31e1135))
-    (fp_arc (start 7.500001 -15.28125) (mid 7.853536 -15.1348) (end 8.000001 -14.78125) (layer "Eco2.User") (width 0.05) (tstamp 60415564-1379-4fa9-a525-9e7b90a0abe9))
+    (fp_arc (start 7.500001 -15.28125) (mid 7.853571 -15.134806) (end 8.000001 -14.78125) (layer "Eco2.User") (width 0.05) (tstamp 60415564-1379-4fa9-a525-9e7b90a0abe9))
     (fp_arc (start 8.000001 -9.03125) (mid 7.853531 -8.67772) (end 7.500001 -8.53125) (layer "Eco2.User") (width 0.05) (tstamp 6f413ca0-5e85-41c9-9ca4-ce7d19d4e526))
     (fp_arc (start -5.499999 -8.53125) (mid -5.853552 -8.677697) (end -5.999999 -9.03125) (layer "Eco2.User") (width 0.05) (tstamp 6fa2d435-e984-4cd8-9ef3-e6ccdfd67c39))
     (fp_arc (start -5.999999 9.03125) (mid -5.853552 8.677697) (end -5.499999 8.53125) (layer "Eco2.User") (width 0.05) (tstamp b2ff9f9b-5e4f-4ee7-bfd6-8b6113670139))
-    (fp_arc (start 7.500001 8.53125) (mid 7.853536 8.6777) (end 8.000001 9.03125) (layer "Eco2.User") (width 0.05) (tstamp e00c478d-0a1c-4fc2-b6aa-e065040e7233))
+    (fp_arc (start 7.500001 8.53125) (mid 7.853571 8.677694) (end 8.000001 9.03125) (layer "Eco2.User") (width 0.05) (tstamp e00c478d-0a1c-4fc2-b6aa-e065040e7233))
     (fp_circle (center -6.985 11.90625) (end -4.985 11.90625) (layer "B.CrtYd") (width 0.12) (fill none) (tstamp 00f41b79-0ae4-4461-a6b7-3859a667458b))
     (fp_circle (center -6.985 -11.90625) (end -4.985 -11.90625) (layer "B.CrtYd") (width 0.12) (fill none) (tstamp 1b66a649-2fc9-4ef0-b2b6-4ef8822d9e33))
     (pad "" np_thru_hole circle (at -6.985 -11.90625 90) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask) (tstamp 3c8300a1-2312-4147-a645-08e020990ecf))
@@ -2706,7 +2706,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/266ad80b-44c4-49ff-9a3b-7cedd9d8120a")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "SW77" (at 0 3.175) (layer "Dwgs.User") hide
+    (fp_text reference "SW67" (at 0 3.175) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e80ffa58-6a3d-40d5-aba0-f92b1d9cd720)
     )
@@ -2790,7 +2790,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/db59ace6-e797-4f8c-8014-5c9455b75dba")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "SW74" (at 0 3.175) (layer "Dwgs.User") hide
+    (fp_text reference "SW82" (at 0 3.175) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dc178939-a4d6-4aa5-8f6b-66c00aa7390d)
     )
@@ -2820,7 +2820,7 @@
     (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
       (net 104 "COL12") (pinfunction "1") (pintype "passive") (tstamp d578d45c-1930-4de8-8170-7423b3f9a75a))
     (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
-      (net 82 "Net-(D74-Pad2)") (pinfunction "2") (pintype "passive") (tstamp ea44fe77-c03d-429e-8df6-a222bbed6a3c))
+      (net 79 "Net-(D82-Pad2)") (pinfunction "2") (pintype "passive") (tstamp ea44fe77-c03d-429e-8df6-a222bbed6a3c))
   )
 
   (footprint "marbastlib-mx:SW_MX_1u" (layer "F.Cu")
@@ -2867,13 +2867,13 @@
 
   (footprint "marbastlib-mx:STAB_MX_6.25u" (layer "F.Cu")
     (tedit 61013AF7) (tstamp 9e79f81e-841b-4d0f-9db3-cc52c6bfc9f6)
-    (at 190.5 169.06875)
+    (at 202.40625 169.06875)
     (descr "Footprint for Cherry Clip/Screw in type stabilizers, 6.25u")
     (property "Sheetfile" "SwitchMatrix.kicad_sch")
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/8beeef2d-c378-4f76-af89-8e466c7b7b67")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "S81" (at 0 0) (layer "F.SilkS") hide
+    (fp_text reference "S75" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2b3d6e2d-dd3c-4d25-9171-0e3454270359)
     )
@@ -2902,12 +2902,12 @@
     (fp_line (start -52.88125 -5.999999) (end -47.13125 -5.999999) (layer "Eco2.User") (width 0.05) (tstamp e4a1b246-99e3-4582-8d9c-b8d312440259))
     (fp_line (start 47.13125 -5.999999) (end 52.880039 -5.999999) (layer "Eco2.User") (width 0.05) (tstamp e58e0061-7024-40b0-9525-267d8bdc84a0))
     (fp_arc (start -52.88125 8.000001) (mid -53.234803 7.853554) (end -53.38125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp 0dfea3b4-4a61-4049-bb91-bfc5524e306a))
-    (fp_arc (start 53.38125 7.500001) (mid 53.234806 7.853571) (end 52.88125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp 5bc8e322-c524-43e5-8321-4419b1ba7a0b))
+    (fp_arc (start 53.38125 7.500001) (mid 53.2348 7.853536) (end 52.88125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp 5bc8e322-c524-43e5-8321-4419b1ba7a0b))
     (fp_arc (start -46.63125 7.500001) (mid -46.777697 7.853554) (end -47.13125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp 71257a9b-e285-453f-8c8a-652a7fcf7ae9))
     (fp_arc (start -53.38125 -5.499999) (mid -53.234803 -5.853552) (end -52.88125 -5.999999) (layer "Eco2.User") (width 0.05) (tstamp a6ba3804-acc5-4936-acba-ece2e92506e7))
-    (fp_arc (start 52.880039 -5.999999) (mid 53.233567 -5.853539) (end 53.380039 -5.499999) (layer "Eco2.User") (width 0.05) (tstamp c1d627ce-c2a7-4568-bcbe-c10a0ed3ec5d))
-    (fp_arc (start 46.63125 -5.499999) (mid 46.777693 -5.853571) (end 47.13125 -5.999999) (layer "Eco2.User") (width 0.05) (tstamp d6f08cf0-0a0f-437b-b982-f894f9ae04c1))
-    (fp_arc (start 47.13125 8.000001) (mid 46.777729 7.853537) (end 46.63125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp e351142b-b15c-4003-91b3-21d770989e5f))
+    (fp_arc (start 52.880039 -5.999999) (mid 53.233602 -5.853545) (end 53.380039 -5.499999) (layer "Eco2.User") (width 0.05) (tstamp c1d627ce-c2a7-4568-bcbe-c10a0ed3ec5d))
+    (fp_arc (start 46.63125 -5.499999) (mid 46.777699 -5.853535) (end 47.13125 -5.999999) (layer "Eco2.User") (width 0.05) (tstamp d6f08cf0-0a0f-437b-b982-f894f9ae04c1))
+    (fp_arc (start 47.13125 8.000001) (mid 46.777693 7.853543) (end 46.63125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp e351142b-b15c-4003-91b3-21d770989e5f))
     (fp_arc (start -47.13125 -5.999999) (mid -46.777697 -5.853552) (end -46.63125 -5.499999) (layer "Eco2.User") (width 0.05) (tstamp fc50b749-261b-408c-ad5b-19803b37d808))
     (fp_circle (center -50.00625 -6.985) (end -48.00625 -6.985) (layer "B.CrtYd") (width 0.12) (fill none) (tstamp 48df2c30-360a-421b-89cc-89f80ebb6673))
     (fp_circle (center 50.00625 -6.985) (end 52.00625 -6.985) (layer "B.CrtYd") (width 0.12) (fill none) (tstamp f47ded36-4803-4e55-b4cb-368ab5fdd037))
@@ -2949,7 +2949,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/a5710bbe-1b5f-414f-bf1a-406718e87137")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "SW72" (at 0 3.175) (layer "Dwgs.User") hide
+    (fp_text reference "SW79" (at 0 3.175) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 124d24b5-1a56-4792-985a-39e012de215d)
     )
@@ -2979,7 +2979,7 @@
     (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
       (net 101 "COL9") (pinfunction "1") (pintype "passive") (tstamp ab6a30bf-78c7-477a-9cdd-66b25051a5fe))
     (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
-      (net 75 "Net-(D72-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 9f23fa2e-6488-4a1a-83b0-05569f602526))
+      (net 77 "Net-(D79-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 9f23fa2e-6488-4a1a-83b0-05569f602526))
   )
 
   (footprint "marbastlib-mx:SW_MX_1u" (layer "F.Cu")
@@ -3068,13 +3068,13 @@
 
   (footprint "marbastlib-mx:STAB_MX_7u" (layer "F.Cu")
     (tedit 61013AEB) (tstamp abb8c9f9-cbb2-4df2-8322-4e018f9c3d59)
-    (at 202.40625 169.06875)
+    (at 190.5 169.06875)
     (descr "Footprint for Cherry Clip/Screw in type stabilizers, 7u")
     (property "Sheetfile" "SwitchMatrix.kicad_sch")
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/ab121c89-d17a-4394-937f-b1694fbcaa43")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "S70" (at 0 0) (layer "F.SilkS") hide
+    (fp_text reference "S74" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e40930c5-88c9-4bf3-87be-05aa6d8122a8)
     )
@@ -3178,13 +3178,13 @@
     (fp_line (start -8.53125 -5.499999) (end -8.53125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp bbe153e9-d0e2-43c8-8e52-b9cb9d643576))
     (fp_line (start -15.28125 -5.499999) (end -15.28125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp cbfa5302-eca0-4537-9d31-e219860c6b86))
     (fp_line (start 15.280039 -5.499999) (end 15.28125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp ef0265db-144a-471f-bf16-0fcdfe4c0fa2))
-    (fp_arc (start 15.28125 7.500001) (mid 15.134806 7.853571) (end 14.78125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp 114e404d-3f52-4fe6-81da-a3c9153258fb))
+    (fp_arc (start 15.28125 7.500001) (mid 15.1348 7.853536) (end 14.78125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp 114e404d-3f52-4fe6-81da-a3c9153258fb))
     (fp_arc (start -8.53125 7.500001) (mid -8.677697 7.853554) (end -9.03125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp 1c3cd6ba-b9f6-4435-a2c6-61ee34e992e6))
-    (fp_arc (start 9.03125 8.000001) (mid 8.677729 7.853537) (end 8.53125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp 8f089117-60f8-424f-964f-578fa586a348))
+    (fp_arc (start 9.03125 8.000001) (mid 8.677693 7.853543) (end 8.53125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp 8f089117-60f8-424f-964f-578fa586a348))
     (fp_arc (start -15.28125 -5.499999) (mid -15.134803 -5.853552) (end -14.78125 -5.999999) (layer "Eco2.User") (width 0.05) (tstamp 9bb31ab7-539f-4301-97db-9a9316e4c044))
     (fp_arc (start 8.53125 -5.499999) (mid 8.677685 -5.853565) (end 9.03125 -5.999999) (layer "Eco2.User") (width 0.05) (tstamp a73d9815-7fc7-40be-93f1-ef858437fc7d))
     (fp_arc (start -9.03125 -5.999999) (mid -8.677697 -5.853552) (end -8.53125 -5.499999) (layer "Eco2.User") (width 0.05) (tstamp b31b73ac-2860-483d-9656-38de4396dc90))
-    (fp_arc (start 14.780039 -5.999999) (mid 15.133567 -5.853539) (end 15.280039 -5.499999) (layer "Eco2.User") (width 0.05) (tstamp b9d7493a-0d20-4bf5-936f-dbece6f9de5b))
+    (fp_arc (start 14.780039 -5.999999) (mid 15.133602 -5.853545) (end 15.280039 -5.499999) (layer "Eco2.User") (width 0.05) (tstamp b9d7493a-0d20-4bf5-936f-dbece6f9de5b))
     (fp_arc (start -14.78125 8.000001) (mid -15.134803 7.853554) (end -15.28125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp efefab34-e806-4207-950d-f4605eb85612))
     (fp_circle (center 11.90625 -6.985) (end 13.90625 -6.985) (layer "B.CrtYd") (width 0.12) (fill none) (tstamp 2592060f-22a1-4a7a-b2d6-a32f27942b43))
     (fp_circle (center -11.90625 -6.985) (end -9.90625 -6.985) (layer "B.CrtYd") (width 0.12) (fill none) (tstamp 75821835-1991-48b2-a046-0d278e3b09b5))
@@ -3351,7 +3351,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/f0c43c08-a908-40de-a617-30b75e411fbf")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "SW68" (at 0 3.175) (layer "Dwgs.User") hide
+    (fp_text reference "SW70" (at 0 3.175) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d9748b88-d8f6-4dac-9d7c-7bebeb1098ea)
     )
@@ -3381,7 +3381,7 @@
     (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
       (net 94 "COL2") (pinfunction "1") (pintype "passive") (tstamp 298e2c3a-26f9-46b2-8a4c-737e8b7acf1c))
     (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
-      (net 73 "Net-(D68-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 4f684001-8d93-48b1-ab86-66e984ab1411))
+      (net 74 "Net-(D70-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 4f684001-8d93-48b1-ab86-66e984ab1411))
   )
 
   (footprint "marbastlib-mx:SW_MX_1u" (layer "F.Cu")
@@ -3435,7 +3435,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/d5753977-c7e5-4d80-90ac-1a18d3d1c8ce")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "SW82" (at 0 3.175) (layer "Dwgs.User") hide
+    (fp_text reference "SW78" (at 0 3.175) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7c7f44e2-96ca-4852-bedf-dad730b0a279)
     )
@@ -3465,7 +3465,7 @@
     (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
       (net 99 "COL7") (pinfunction "1") (pintype "passive") (tstamp 3bdb6c9c-aa55-437b-a834-3f1f47daa9e5))
     (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
-      (net 81 "Net-(D71-Pad2)") (pinfunction "2") (pintype "passive") (tstamp da55629a-e0f1-465a-bdca-d282c67b9c50))
+      (net 76 "Net-(D77-Pad2)") (pinfunction "2") (pintype "passive") (tstamp da55629a-e0f1-465a-bdca-d282c67b9c50))
   )
 
   (footprint "marbastlib-mx:SW_MX_1u" (layer "F.Cu")
@@ -3603,7 +3603,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/1b926d5d-a29d-4d71-b0ef-c612707c7a6e")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "SW69" (at 0 3.175) (layer "Dwgs.User") hide
+    (fp_text reference "SW72" (at 0 3.175) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8f2d4d08-d924-47d3-8c2a-af983e8771e9)
     )
@@ -3633,7 +3633,7 @@
     (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
       (net 97 "COL5") (pinfunction "1") (pintype "passive") (tstamp d8a429ec-b69d-4bcb-9584-a5ea5c347de2))
     (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
-      (net 80 "Net-(D69-Pad2)") (pinfunction "2") (pintype "passive") (tstamp fe21ce19-4c2b-4c26-bacd-cb458f8480ea))
+      (net 75 "Net-(D72-Pad2)") (pinfunction "2") (pintype "passive") (tstamp fe21ce19-4c2b-4c26-bacd-cb458f8480ea))
   )
 
   (footprint "marbastlib-mx:SW_MX_1u" (layer "F.Cu")
@@ -3728,7 +3728,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/f7f7999e-73ff-49b0-b4bf-98a3ea2c4280")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "SW78" (at 0 3.175) (layer "Dwgs.User") hide
+    (fp_text reference "SW69" (at 0 3.175) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e4b88af4-5280-4deb-baa5-15ef6d9c7c16)
     )
@@ -3758,7 +3758,7 @@
     (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
       (net 93 "COL1") (pinfunction "1") (pintype "passive") (tstamp d5fc9b9a-47b0-4478-8e15-8be6cff0d12b))
     (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
-      (net 79 "Net-(D67-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 01ede5aa-1862-4429-8b2e-03b2f1de6d80))
+      (net 73 "Net-(D68-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 01ede5aa-1862-4429-8b2e-03b2f1de6d80))
   )
 
   (footprint "marbastlib-mx:SW_MX_1u" (layer "F.Cu")
@@ -3847,14 +3847,14 @@
 
   (footprint "marbastlib-mx:SW_MX_1u" (layer "F.Cu")
     (tedit 61013A6B) (tstamp dc432b5f-88c4-4c70-8985-7c8d107db290)
-    (at 202.40625 169.06875)
+    (at 190.5 169.06875)
     (descr "Footprint for Cherry MX style switches")
     (tags "cherry mx switch")
     (property "Sheetfile" "SwitchMatrix.kicad_sch")
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/0ce96412-cab6-4ecf-9ef5-c7704f7e3dff")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "SW70" (at 0 3.175) (layer "Dwgs.User") hide
+    (fp_text reference "SW74" (at 0 3.175) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9cb28a83-1b02-4929-83ba-e5bc186718e0)
     )
@@ -3884,7 +3884,7 @@
     (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
       (net 98 "COL6") (pinfunction "1") (pintype "passive") (tstamp f614deba-7865-4c1e-8328-875d6366f1bd))
     (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
-      (net 74 "Net-(D70-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 07a9f3f0-ada7-4227-99a1-2bc52bd44e6f))
+      (net 82 "Net-(D74-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 07a9f3f0-ada7-4227-99a1-2bc52bd44e6f))
   )
 
   (footprint "marbastlib-mx:SW_MX_1.25u" (layer "F.Cu")
@@ -3895,7 +3895,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/4b845d28-d1fd-46d4-b710-44b6fe303a07")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "SW79" (at 0 3.175) (layer "Dwgs.User") hide
+    (fp_text reference "SW71" (at 0 3.175) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7d38b823-0f8a-42ee-8404-3236086f9923)
     )
@@ -3925,7 +3925,7 @@
     (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
       (net 94 "COL2") (pinfunction "1") (pintype "passive") (tstamp 633ff7c0-68f9-4344-8e31-c05bd963a786))
     (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.3 2.3) (drill 1.524) (layers *.Cu "B.Mask")
-      (net 73 "Net-(D68-Pad2)") (pinfunction "2") (pintype "passive") (tstamp dc424224-1967-430a-a034-f1e1d8e627bc))
+      (net 74 "Net-(D70-Pad2)") (pinfunction "2") (pintype "passive") (tstamp dc424224-1967-430a-a034-f1e1d8e627bc))
   )
 
   (footprint "marbastlib-mx:SW_MX_1u" (layer "F.Cu")
@@ -4014,13 +4014,13 @@
 
   (footprint "marbastlib-mx:STAB_MX_2u" (layer "F.Cu")
     (tedit 61013B04) (tstamp df678413-eb56-4bca-a14c-fb3b59d44eae)
-    (at 335.75625 169.06875)
+    (at 354.80625 169.06875)
     (descr "Footprint for Cherry Clip/Screw in type stabilizers, 2u")
     (property "Sheetfile" "SwitchMatrix.kicad_sch")
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/c99e4bc7-d51c-4219-9cf7-1f1bfb97ba53")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "S84" (at 0 0) (layer "F.SilkS") hide
+    (fp_text reference "S76" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cdcfa328-0787-490f-a721-728ad24ecad8)
     )
@@ -4052,10 +4052,10 @@
     (fp_arc (start -15.28125 -5.499999) (mid -15.134803 -5.853552) (end -14.78125 -5.999999) (layer "Eco2.User") (width 0.05) (tstamp 1ae643d7-ef3e-43c7-bfae-27771afe52bd))
     (fp_arc (start 8.53125 -5.499999) (mid 8.677685 -5.853565) (end 9.03125 -5.999999) (layer "Eco2.User") (width 0.05) (tstamp 2bdcf909-7201-4773-a671-a1b8e557d8d8))
     (fp_arc (start -8.53125 7.500001) (mid -8.677697 7.853554) (end -9.03125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp 654c76dc-89c6-475b-828d-bd77ba993070))
-    (fp_arc (start 14.780039 -5.999999) (mid 15.133567 -5.853539) (end 15.280039 -5.499999) (layer "Eco2.User") (width 0.05) (tstamp 7301c711-977e-4c92-a118-0a89cf8d38de))
+    (fp_arc (start 14.780039 -5.999999) (mid 15.133602 -5.853545) (end 15.280039 -5.499999) (layer "Eco2.User") (width 0.05) (tstamp 7301c711-977e-4c92-a118-0a89cf8d38de))
     (fp_arc (start -14.78125 8.000001) (mid -15.134803 7.853554) (end -15.28125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp 8384db41-4156-4617-96ac-008ba846f117))
-    (fp_arc (start 9.03125 8.000001) (mid 8.677729 7.853537) (end 8.53125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp e53d2e9e-c849-4114-b855-843628353f20))
-    (fp_arc (start 15.28125 7.500001) (mid 15.134806 7.853571) (end 14.78125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp f0baa42c-6553-43c3-9106-1e4ad0d30d8c))
+    (fp_arc (start 9.03125 8.000001) (mid 8.677693 7.853543) (end 8.53125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp e53d2e9e-c849-4114-b855-843628353f20))
+    (fp_arc (start 15.28125 7.500001) (mid 15.1348 7.853536) (end 14.78125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp f0baa42c-6553-43c3-9106-1e4ad0d30d8c))
     (fp_circle (center -11.90625 -6.985) (end -9.90625 -6.985) (layer "B.CrtYd") (width 0.12) (fill none) (tstamp 30a0f9c7-81bb-412d-878d-66eba8b3a2b7))
     (fp_circle (center 11.90625 -6.985) (end 13.90625 -6.985) (layer "B.CrtYd") (width 0.12) (fill none) (tstamp 54be25b9-4900-4bf6-a61e-8e4dee6b37cc))
     (pad "" np_thru_hole circle (at -11.90625 8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask) (tstamp 2e13d69c-2725-4c78-abfe-81c97e89f203))
@@ -4221,7 +4221,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/f3cfb11f-9bc7-4ce7-a6b8-3f9ec783f0b4")
     (attr through_hole exclude_from_pos_files)
-    (fp_text reference "S69" (at 0 0) (layer "F.SilkS") hide
+    (fp_text reference "S72" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 42c66e12-d23e-4d7f-b7d9-d0cd9dc14ec4)
     )
@@ -4452,13 +4452,13 @@
     (fp_line (start -14.78125 8.000001) (end -9.03125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp e8193b42-34f8-45bf-b877-d367fca1213a))
     (fp_line (start -14.78125 -5.999999) (end -9.03125 -5.999999) (layer "Eco2.User") (width 0.05) (tstamp f81eceba-471e-4140-9262-efcdcfc0f18d))
     (fp_arc (start -9.03125 -5.999999) (mid -8.677697 -5.853552) (end -8.53125 -5.499999) (layer "Eco2.User") (width 0.05) (tstamp 27c48d85-bd36-4649-bda4-e66c09d85837))
-    (fp_arc (start 15.28125 7.500001) (mid 15.134806 7.853571) (end 14.78125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp 7bc0712c-c3e0-4e46-aebd-e17671f73a75))
+    (fp_arc (start 15.28125 7.500001) (mid 15.1348 7.853536) (end 14.78125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp 7bc0712c-c3e0-4e46-aebd-e17671f73a75))
     (fp_arc (start 8.53125 -5.499999) (mid 8.677685 -5.853565) (end 9.03125 -5.999999) (layer "Eco2.User") (width 0.05) (tstamp 8226d7f3-166d-4c67-a5a8-e58545f8e19d))
     (fp_arc (start -14.78125 8.000001) (mid -15.134803 7.853554) (end -15.28125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp 8347769a-5961-4480-91ad-2dffd6f0a9e6))
     (fp_arc (start -15.28125 -5.499999) (mid -15.134803 -5.853552) (end -14.78125 -5.999999) (layer "Eco2.User") (width 0.05) (tstamp be22666f-31b3-4dcd-b6f4-2eeeb05ba279))
     (fp_arc (start -8.53125 7.500001) (mid -8.677697 7.853554) (end -9.03125 8.000001) (layer "Eco2.User") (width 0.05) (tstamp bf151103-5eaa-433a-b7a3-8a995310dfbb))
-    (fp_arc (start 14.780039 -5.999999) (mid 15.133567 -5.853539) (end 15.280039 -5.499999) (layer "Eco2.User") (width 0.05) (tstamp de896743-a4e9-43e5-a35d-fa013c50e7e1))
-    (fp_arc (start 9.03125 8.000001) (mid 8.677729 7.853537) (end 8.53125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp eed7e45b-91dc-4423-b406-aa22e721f841))
+    (fp_arc (start 14.780039 -5.999999) (mid 15.133602 -5.853545) (end 15.280039 -5.499999) (layer "Eco2.User") (width 0.05) (tstamp de896743-a4e9-43e5-a35d-fa013c50e7e1))
+    (fp_arc (start 9.03125 8.000001) (mid 8.677693 7.853543) (end 8.53125 7.500001) (layer "Eco2.User") (width 0.05) (tstamp eed7e45b-91dc-4423-b406-aa22e721f841))
     (fp_circle (center -11.90625 -6.985) (end -9.90625 -6.985) (layer "B.CrtYd") (width 0.12) (fill none) (tstamp 0034a5d7-cca6-4112-bf47-ad3882ce4eb0))
     (fp_circle (center 11.90625 -6.985) (end 13.90625 -6.985) (layer "B.CrtYd") (width 0.12) (fill none) (tstamp c1f0352f-b0b0-45d8-b279-260c6852378d))
     (pad "" np_thru_hole circle (at -11.90625 8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask) (tstamp 33e7ede8-a61e-49b9-be33-afdf95d30a00))
@@ -5018,7 +5018,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/b7af20dc-e3c4-48fe-b0c6-e05b43d423c0")
     (attr smd)
-    (fp_text reference "D76" (at 0 2 90) (layer "B.SilkS")
+    (fp_text reference "D84" (at 0 2 90) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 86197df3-6e52-4e36-b3c0-c3e431a796da)
     )
@@ -5051,7 +5051,7 @@
     (pad "1" smd rect (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 71 "ROW4") (pinfunction "K") (pintype "passive") (tstamp 0c00150e-f0fa-4905-b223-b5142d8131f6))
     (pad "2" smd rect (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 78 "Net-(D76-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 04f55c3c-83dc-4ba1-a6d0-2207ade09051))
+      (net 81 "Net-(D84-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 04f55c3c-83dc-4ba1-a6d0-2207ade09051))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -5160,7 +5160,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/857043f7-c686-46a0-9398-e1ae426b4c74")
     (attr smd)
-    (fp_text reference "D71" (at 0 2 90) (layer "B.SilkS")
+    (fp_text reference "D77" (at 0 2 90) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp befe31ab-a641-4c91-be1d-d9a90a8647dd)
     )
@@ -5193,7 +5193,7 @@
     (pad "1" smd rect (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 71 "ROW4") (pinfunction "K") (pintype "passive") (tstamp bf248b72-c9a0-40d0-9c6a-ae333e426294))
     (pad "2" smd rect (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 81 "Net-(D71-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 4cbfe7c3-3813-4d76-ae0b-36722c971969))
+      (net 76 "Net-(D77-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 4cbfe7c3-3813-4d76-ae0b-36722c971969))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -5344,7 +5344,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/4ab3e463-0629-4464-85ca-e7883403a781")
     (attr smd)
-    (fp_text reference "D68" (at 0 2 90) (layer "B.SilkS")
+    (fp_text reference "D70" (at 0 2 90) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 06f5361a-a54b-4573-9957-4e2e8b25ae43)
     )
@@ -5377,7 +5377,7 @@
     (pad "1" smd rect (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 71 "ROW4") (pinfunction "K") (pintype "passive") (tstamp 7ca6d62b-f3d1-4aa5-b2fa-7d717f10aaac))
     (pad "2" smd rect (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 73 "Net-(D68-Pad2)") (pinfunction "A") (pintype "passive") (tstamp c1a17d54-ce5d-476d-8aee-1efc514f5bfe))
+      (net 74 "Net-(D70-Pad2)") (pinfunction "A") (pintype "passive") (tstamp c1a17d54-ce5d-476d-8aee-1efc514f5bfe))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -5478,14 +5478,14 @@
     (fp_arc (start 1.699999 -0.702842) (mid 1.712536 -0.814065) (end 1.749484 -0.919719) (layer "Edge.Cuts") (width 0.1) (tstamp 1a073983-9521-4fa1-98da-7622a77ae538))
     (fp_arc (start 1.04671 -1.568298) (mid 0.925122 -1.517376) (end 0.794452 -1.499999) (layer "Edge.Cuts") (width 0.1) (tstamp 1fd8cdf0-9f44-4d83-af28-fbbebf30240c))
     (fp_arc (start 0.794453 1.500001) (mid 0.925123 1.517378) (end 1.046711 1.5683) (layer "Edge.Cuts") (width 0.1) (tstamp 21d1c54c-22db-4919-9452-86a1131354b8))
-    (fp_arc (start -1.046711 1.568299) (mid -1.638071 1.504035) (end -1.749484 0.919721) (layer "Edge.Cuts") (width 0.1) (tstamp 2d70748d-0d0b-4dc4-ba4e-0763dc10bec4))
+    (fp_arc (start -1.046711 1.568299) (mid -1.63807 1.504035) (end -1.749484 0.919721) (layer "Edge.Cuts") (width 0.1) (tstamp 2d70748d-0d0b-4dc4-ba4e-0763dc10bec4))
     (fp_arc (start -0.794452 -1.499999) (mid -0.925123 -1.517376) (end -1.046711 -1.568298) (layer "Edge.Cuts") (width 0.1) (tstamp 40ee69ce-02e8-42f8-b9a5-eee64651af25))
     (fp_arc (start -1.046711 1.568299) (mid -0.925123 1.517377) (end -0.794453 1.5) (layer "Edge.Cuts") (width 0.1) (tstamp 7ec749c3-6d33-41ec-8979-aae7c0f4ee4f))
     (fp_arc (start -1.749484 -0.919719) (mid -1.712527 -0.814067) (end -1.699999 -0.702841) (layer "Edge.Cuts") (width 0.1) (tstamp d153ae09-f8a8-450a-8623-53d74eb618f9))
     (fp_arc (start -1.699999 0.702844) (mid -1.712527 0.814069) (end -1.749484 0.919721) (layer "Edge.Cuts") (width 0.1) (tstamp d2bafabf-5889-45be-8840-071725bf8fcd))
     (fp_arc (start -1.749484 -0.919718) (mid -1.638072 -1.504034) (end -1.046711 -1.568298) (layer "Edge.Cuts") (width 0.1) (tstamp da4415e1-8940-449e-b70a-b140ec244996))
     (fp_arc (start 1.046711 -1.568296) (mid 1.638069 -1.504034) (end 1.749484 -0.919719) (layer "Edge.Cuts") (width 0.1) (tstamp e47e106a-99a9-48b8-824b-901dea088edd))
-    (fp_arc (start 1.749484 0.919721) (mid 1.71254 0.814067) (end 1.699999 0.702843) (layer "Edge.Cuts") (width 0.1) (tstamp e7f4d90d-956c-476f-8253-8eb66a88e8e3))
+    (fp_arc (start 1.749484 0.919721) (mid 1.712534 0.814067) (end 1.699999 0.702843) (layer "Edge.Cuts") (width 0.1) (tstamp e7f4d90d-956c-476f-8253-8eb66a88e8e3))
     (fp_arc (start 1.749484 0.919721) (mid 1.638072 1.504036) (end 1.046711 1.5683) (layer "Edge.Cuts") (width 0.1) (tstamp f1b0a6b9-7a26-4863-bce5-fd16ed41a590))
     (fp_line (start 3.8 -1.999999) (end -3.8 -1.999999) (layer "B.CrtYd") (width 0.05) (tstamp 19088a9a-17c3-4285-8bc7-d3616b324b98))
     (fp_line (start -3.8 2.000001) (end 3.8 2.000001) (layer "B.CrtYd") (width 0.05) (tstamp 7453c7c1-52a3-4b49-bebf-7abaa49998b2))
@@ -5618,7 +5618,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/12db4da1-4b0c-4235-80d2-584948728f05")
     (attr smd)
-    (fp_text reference "D67" (at 0 2 90) (layer "B.SilkS")
+    (fp_text reference "D68" (at 0 2 90) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp cdebfb57-5930-437b-95a2-8940933502f6)
     )
@@ -5651,7 +5651,7 @@
     (pad "1" smd rect (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 71 "ROW4") (pinfunction "K") (pintype "passive") (tstamp 6ae97d6d-4e74-4b4a-bc79-756700d791f7))
     (pad "2" smd rect (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 79 "Net-(D67-Pad2)") (pinfunction "A") (pintype "passive") (tstamp d66e5b60-27aa-4dce-a3a0-fe1dd8a2753f))
+      (net 73 "Net-(D68-Pad2)") (pinfunction "A") (pintype "passive") (tstamp d66e5b60-27aa-4dce-a3a0-fe1dd8a2753f))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -5710,7 +5710,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/55b2a095-601e-424f-abbb-30d749a87d97")
     (attr smd)
-    (fp_text reference "D69" (at 0 2 90) (layer "B.SilkS")
+    (fp_text reference "D72" (at 0 2 90) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 65277514-7312-4172-a6db-01a6be31008d)
     )
@@ -5743,7 +5743,7 @@
     (pad "1" smd rect (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 71 "ROW4") (pinfunction "K") (pintype "passive") (tstamp e60d19ab-4a27-42a2-8f9c-9ab361b06ef2))
     (pad "2" smd rect (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 80 "Net-(D69-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 23947178-38b0-4444-a591-f428f23b4360))
+      (net 75 "Net-(D72-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 23947178-38b0-4444-a591-f428f23b4360))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -6302,7 +6302,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/7fead229-4db8-493f-9d49-9641ca5a9b40")
     (attr smd)
-    (fp_text reference "D74" (at 0 2 90) (layer "B.SilkS")
+    (fp_text reference "D82" (at 0 2 90) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a0639ebb-a476-4e1b-9589-eb94a1aff224)
     )
@@ -6335,7 +6335,7 @@
     (pad "1" smd rect (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 71 "ROW4") (pinfunction "K") (pintype "passive") (tstamp 406ee0aa-8589-4d9e-b9c6-061091d784d0))
     (pad "2" smd rect (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 82 "Net-(D74-Pad2)") (pinfunction "A") (pintype "passive") (tstamp fc0248a4-870a-482d-bbfa-efde8b9bd8e7))
+      (net 79 "Net-(D82-Pad2)") (pinfunction "A") (pintype "passive") (tstamp fc0248a4-870a-482d-bbfa-efde8b9bd8e7))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -6494,7 +6494,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/c379f800-e53f-4c77-a7f5-d3cea94b5d80")
     (attr smd)
-    (fp_text reference "D73" (at 0 2 90) (layer "B.SilkS")
+    (fp_text reference "D80" (at 0 2 90) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ad43682a-cb23-43c2-a3f6-aab70a292f5e)
     )
@@ -6527,7 +6527,7 @@
     (pad "1" smd rect (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 71 "ROW4") (pinfunction "K") (pintype "passive") (tstamp 634a5e35-646c-4531-8967-93ef58d00d2a))
     (pad "2" smd rect (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 76 "Net-(D73-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 08daa236-e575-422d-a86b-cdd39841b2c1))
+      (net 78 "Net-(D80-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 08daa236-e575-422d-a86b-cdd39841b2c1))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -7764,14 +7764,14 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tedit 58645DC7) (tstamp a14294c6-bc21-47fe-acfe-14b3f8bc3510)
-    (at 209.55 173.83125 90)
+    (at 197.64375 173.83125 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (property "Sheetfile" "SwitchMatrix.kicad_sch")
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/6119f045-9023-4045-a17e-ae21c880ca4c")
     (attr smd)
-    (fp_text reference "D70" (at 0 2 90) (layer "B.SilkS")
+    (fp_text reference "D74" (at 0 2 90) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp fd72c1c3-1990-4dbb-be4b-cd1a7603bec6)
     )
@@ -7804,7 +7804,7 @@
     (pad "1" smd rect (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 71 "ROW4") (pinfunction "K") (pintype "passive") (tstamp 9bd24a69-6982-49fd-be68-faa844799396))
     (pad "2" smd rect (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 74 "Net-(D70-Pad2)") (pinfunction "A") (pintype "passive") (tstamp e4c42beb-9c75-4f70-add3-0d9cb1b8aeaf))
+      (net 82 "Net-(D74-Pad2)") (pinfunction "A") (pintype "passive") (tstamp e4c42beb-9c75-4f70-add3-0d9cb1b8aeaf))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -8749,7 +8749,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/823270c3-c389-4a91-9bf8-f907c6fea816")
     (attr smd)
-    (fp_text reference "D75" (at 0 2 90) (layer "B.SilkS")
+    (fp_text reference "D83" (at 0 2 90) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 238a2f5e-043f-4109-ab1f-3768bc2b6c73)
     )
@@ -8782,7 +8782,7 @@
     (pad "1" smd rect (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 71 "ROW4") (pinfunction "K") (pintype "passive") (tstamp ff56be85-1986-4049-b6cd-13c843be2773))
     (pad "2" smd rect (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 77 "Net-(D75-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 8bfec21b-ecf1-4296-897c-05e3d3534303))
+      (net 80 "Net-(D83-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 8bfec21b-ecf1-4296-897c-05e3d3534303))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -9575,7 +9575,7 @@
     (property "Sheetname" "Switch Matrix")
     (path "/fb7c2ffa-ca99-4b61-b7b2-daf423069bae/67e9b22e-5308-4c4e-b4f7-d6ca357230ea")
     (attr smd)
-    (fp_text reference "D72" (at 0 2 90) (layer "B.SilkS")
+    (fp_text reference "D79" (at 0 2 90) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp bba5bfb9-5794-4922-aeca-fecb9c35e85b)
     )
@@ -9608,7 +9608,7 @@
     (pad "1" smd rect (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 71 "ROW4") (pinfunction "K") (pintype "passive") (tstamp b47dba6c-4ea4-4623-95cf-049d961386fb))
     (pad "2" smd rect (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 75 "Net-(D72-Pad2)") (pinfunction "A") (pintype "passive") (tstamp f5edc13a-0bf7-44d8-9d18-67d08db8e8c5))
+      (net 77 "Net-(D79-Pad2)") (pinfunction "A") (pintype "passive") (tstamp f5edc13a-0bf7-44d8-9d18-67d08db8e8c5))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
