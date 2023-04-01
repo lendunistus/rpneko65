@@ -4681,7 +4681,7 @@
     (property "Value" "ISO Enter" (at 269.24 76.1999 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "marbastlib-mx:STAB_MX_ISO" (at 265.43 74.93 0)
+    (property "Footprint" "marbastlib-mx:STAB_MX_P_ISO" (at 265.43 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 265.43 74.93 0)
