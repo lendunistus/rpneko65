@@ -23,6 +23,7 @@ G04 Aperture macros list*
 1,1,$1+$1,$4,$5*
 1,1,$1+$1,$6,$7*
 1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
 20,1,$1+$1,$2,$3,$4,$5,0*
 20,1,$1+$1,$4,$5,$6,$7,0*
 20,1,$1+$1,$6,$7,$8,$9,0*
