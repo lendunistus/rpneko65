@@ -3590,7 +3590,7 @@
     (property "Reference" "C9" (at 185.42 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10uF" (at 185.42 53.34 0)
+    (property "Value" "4.7uF" (at 185.42 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 182.88 50.8 0)
