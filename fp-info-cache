@@ -1,4 +1,4 @@
-22193634787230889
+22195868929881763
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64931,6 +64931,13 @@ rotary encoder
 0
 7
 6
+PCM_marbastlib-various
+ROT_SKYLOONG_HS-Switch
+SKYLOONG hotswap knob module with internal switch
+
+0
+4
+4
 PCM_marbastlib-various
 SOT-23-6-routable
 SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
