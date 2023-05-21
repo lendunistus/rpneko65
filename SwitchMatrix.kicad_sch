@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "RPNeko65")
+    (rev "1")
+    (company "Designed by lendun")
+    (comment 1 "MIT License")
+  )
+
   (lib_symbols
     (symbol "Device:D_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at -1.27 2.032 0)
