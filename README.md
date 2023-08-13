@@ -1,5 +1,7 @@
 # RPNeko65
 
+![alt text](./images/rev1_pcb.png "PCB Image")
+
 An open source multi-layout PCB for the [Bakeneko65](https://github.com/kkatano/bakeneko-65)
 
 ## Features
