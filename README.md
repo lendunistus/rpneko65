@@ -1,5 +1,7 @@
 # RPNeko65
 
+**This branch contains the work-in-progress second revision. NOTHING HERE IS CONFIRMED WORKING!**
+
 ![alt text](./images/rev1-pcb-purple.png "PCB Image")
 
 An open source multi-layout PCB for the [Bakeneko65](https://github.com/kkatano/bakeneko-65)
