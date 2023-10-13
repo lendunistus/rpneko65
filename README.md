@@ -1,5 +1,7 @@
 # RPNeko65
 
+![alt text](./images/rev1-pcb-purple.png "PCB Image")
+
 An open source multi-layout PCB for the [Bakeneko65](https://github.com/kkatano/bakeneko-65)
 
 ## Features
@@ -13,7 +15,7 @@ An open source multi-layout PCB for the [Bakeneko65](https://github.com/kkatano/
 ![alt text](./images/rev1_layout_support.png "Layout Support")
 
 ## Release history
-- Rev 1: Initial prototype. Caps Lock LED is non-functional due to incorrect capacitor wiring, can be fixed by removing the capacitor and bridging the two pads
+- Rev 1: Initial prototype. Caps Lock LED is non-functional due to incorrect capacitor wiring, can be fixed by removing the capacitor and bridging the two pads. ANSI enter and spacebar stabiliser holes are also misaligned
 
 ## Credits
 - kkatano for creating the original Bakeneko65
